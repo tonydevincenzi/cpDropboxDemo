@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  CreateAccountRootViewController.swift
 //  cpDropboxDemo
 //
 //  Created by Anthony Devincenzi on 2/2/16.
@@ -8,17 +8,16 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class CreateAccountRootViewController: UINavigationController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        //performSegueWithIdentifier("showSignup", sender: self)
+
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
-
-
 }
+

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EAB1EE191C61B0D90056AC28 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB1EE181C61B0D90056AC28 /* SignInViewController.swift */; };
 		EACAD9051C6175DF0087E5E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACAD9041C6175DF0087E5E1 /* AppDelegate.swift */; };
 		EACAD9071C6175DF0087E5E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACAD9061C6175DF0087E5E1 /* ViewController.swift */; };
 		EACAD90A1C6175DF0087E5E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EACAD9081C6175DF0087E5E1 /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		EACAD90F1C6175DF0087E5E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EACAD90D1C6175DF0087E5E1 /* LaunchScreen.storyboard */; };
 		EACAD91A1C6175DF0087E5E1 /* cpDropboxDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACAD9191C6175DF0087E5E1 /* cpDropboxDemoTests.swift */; };
 		EACAD9251C6175DF0087E5E1 /* cpDropboxDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACAD9241C6175DF0087E5E1 /* cpDropboxDemoUITests.swift */; };
+		EAE057301C61A9D9001B2377 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE0572F1C61A9D9001B2377 /* SettingsViewController.swift */; };
+		EAE057321C61AC96001B2377 /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE057311C61AC96001B2377 /* CreateAccountRootViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EAB1EE181C61B0D90056AC28 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		EACAD9011C6175DF0087E5E1 /* cpDropboxDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cpDropboxDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EACAD9041C6175DF0087E5E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EACAD9061C6175DF0087E5E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,8 @@
 		EACAD9201C6175DF0087E5E1 /* cpDropboxDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cpDropboxDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EACAD9241C6175DF0087E5E1 /* cpDropboxDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cpDropboxDemoUITests.swift; sourceTree = "<group>"; };
 		EACAD9261C6175DF0087E5E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAE0572F1C61A9D9001B2377 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		EAE057311C61AC96001B2377 /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 				EACAD9041C6175DF0087E5E1 /* AppDelegate.swift */,
 				EACAD9061C6175DF0087E5E1 /* ViewController.swift */,
 				EACAD9081C6175DF0087E5E1 /* Main.storyboard */,
+				EAB1EE181C61B0D90056AC28 /* SignInViewController.swift */,
+				EAE057311C61AC96001B2377 /* CreateAccountRootViewController.swift */,
+				EAE0572F1C61A9D9001B2377 /* SettingsViewController.swift */,
 				EACAD90B1C6175DF0087E5E1 /* Assets.xcassets */,
 				EACAD90D1C6175DF0087E5E1 /* LaunchScreen.storyboard */,
 				EACAD9101C6175DF0087E5E1 /* Info.plist */,
@@ -256,8 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAE057321C61AC96001B2377 /* CreateAccountRootViewController.swift in Sources */,
 				EACAD9071C6175DF0087E5E1 /* ViewController.swift in Sources */,
 				EACAD9051C6175DF0087E5E1 /* AppDelegate.swift in Sources */,
+				EAB1EE191C61B0D90056AC28 /* SignInViewController.swift in Sources */,
+				EAE057301C61A9D9001B2377 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +496,7 @@
 				EACAD92B1C6175DF0087E5E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EACAD92C1C6175DF0087E5E1 /* Build configuration list for PBXNativeTarget "cpDropboxDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +505,7 @@
 				EACAD92E1C6175DF0087E5E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EACAD92F1C6175DF0087E5E1 /* Build configuration list for PBXNativeTarget "cpDropboxDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +514,7 @@
 				EACAD9311C6175DF0087E5E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
