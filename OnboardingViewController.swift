@@ -1,5 +1,5 @@
 //
-//  SignInViewController.swift
+//  OnboardingViewController.swift
 //  cpDropboxDemo
 //
 //  Created by Anthony Devincenzi on 2/2/16.
@@ -8,11 +8,15 @@
 
 import UIKit
 
-class SignInViewController: UIViewController {
+class OnboardingViewController: UIViewController {
 
+    @IBOutlet weak var onboardingScrollView: UIScrollView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+        onboardingScrollView.contentSize = CGSize(width:960, height:568)
+
     }
 
     override func didReceiveMemoryWarning() {
