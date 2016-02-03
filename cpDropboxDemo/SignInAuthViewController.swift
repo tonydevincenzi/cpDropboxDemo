@@ -35,7 +35,6 @@ class SignInAuthViewController: UIViewController {
     }
     
     @IBAction func onEditingChanged(sender: AnyObject) {
-        print("Data entered")
         signInButton.hidden = false
     }
 

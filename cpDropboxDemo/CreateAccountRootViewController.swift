@@ -17,7 +17,7 @@ class CreateAccountRootViewController: UINavigationController {
     }
     
     override func viewDidAppear(animated: Bool) {
-        performSegueWithIdentifier("showSignup", sender: self)
+    //performSegueWithIdentifier("showSignup", sender: self)
     }
 
     override func didReceiveMemoryWarning() {
