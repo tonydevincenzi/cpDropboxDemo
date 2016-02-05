@@ -21,6 +21,6 @@ Completed user stories:
 
 Walkthrough of all user stories:
 
-![Video Walkthrough](tipsdemo.gif)
+![Video Walkthrough](CPWeekOne.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
