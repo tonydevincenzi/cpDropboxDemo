@@ -9,10 +9,12 @@
 import UIKit
 
 class SignInViewController: UIViewController {
+    
+    var action:String = "not yet set"
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        print(action)
     }
 
     override func didReceiveMemoryWarning() {

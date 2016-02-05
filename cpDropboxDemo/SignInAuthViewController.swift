@@ -11,13 +11,12 @@ import UIKit
 class SignInAuthViewController: UIViewController {
     
     
-    @IBOutlet weak var signInButton: UIButton!
     @IBOutlet weak var signInPassword: UITextField!
+    @IBOutlet weak var signInButton: UIBarButtonItem!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        signInButton.hidden = true
     }
 
     override func didReceiveMemoryWarning() {
@@ -35,7 +34,7 @@ class SignInAuthViewController: UIViewController {
     }
     
     @IBAction func onEditingChanged(sender: AnyObject) {
-        signInButton.hidden = false
+        signInButton.enabled = true
     }
 
     @IBAction func showActionSheet(sender: AnyObject) {
@@ -60,9 +59,13 @@ class SignInAuthViewController: UIViewController {
     }
     
     
+    @IBAction func signInButtonClick(sender: AnyObject) {
+        performSegueWithIdentifier("signInComplete", sender: nil)
+    }
+    
+    
     @IBAction func onTap(sender: AnyObject) {
         view.endEditing(true)
-        print("tap")
     }
 
 }

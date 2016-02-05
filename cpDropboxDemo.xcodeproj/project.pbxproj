@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA036C451C630D1B00DCC16B /* SignInSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA036C441C630D1B00DCC16B /* SignInSignUpViewController.swift */; };
 		EACAD9051C6175DF0087E5E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACAD9041C6175DF0087E5E1 /* AppDelegate.swift */; };
 		EACAD9071C6175DF0087E5E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACAD9061C6175DF0087E5E1 /* ViewController.swift */; };
 		EACAD90A1C6175DF0087E5E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EACAD9081C6175DF0087E5E1 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 		EAE60D1E1C61C9E8000FCBCD /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE60D1D1C61C9E8000FCBCD /* OnboardingViewController.swift */; };
 		EAE60D201C61CF83000FCBCD /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE60D1F1C61CF83000FCBCD /* SignInViewController.swift */; };
 		EAE60D221C627184000FCBCD /* SignInAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE60D211C627184000FCBCD /* SignInAuthViewController.swift */; };
+		EAF11C081C62E46C0024970A /* TosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF11C071C62E46C0024970A /* TosViewController.swift */; };
 		EAFD2E651C6288A200C60023 /* SignUpAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFD2E641C6288A200C60023 /* SignUpAuthViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA036C441C630D1B00DCC16B /* SignInSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInSignUpViewController.swift; sourceTree = "<group>"; };
 		EACAD9011C6175DF0087E5E1 /* cpDropboxDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cpDropboxDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EACAD9041C6175DF0087E5E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EACAD9061C6175DF0087E5E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +61,7 @@
 		EAE60D1D1C61C9E8000FCBCD /* OnboardingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OnboardingViewController.swift; path = ../OnboardingViewController.swift; sourceTree = "<group>"; };
 		EAE60D1F1C61CF83000FCBCD /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		EAE60D211C627184000FCBCD /* SignInAuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInAuthViewController.swift; sourceTree = "<group>"; };
+		EAF11C071C62E46C0024970A /* TosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TosViewController.swift; sourceTree = "<group>"; };
 		EAFD2E641C6288A200C60023 /* SignUpAuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpAuthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,6 +118,8 @@
 				EACAD9041C6175DF0087E5E1 /* AppDelegate.swift */,
 				EACAD9061C6175DF0087E5E1 /* ViewController.swift */,
 				EACAD9081C6175DF0087E5E1 /* Main.storyboard */,
+				EA036C441C630D1B00DCC16B /* SignInSignUpViewController.swift */,
+				EAF11C071C62E46C0024970A /* TosViewController.swift */,
 				EAFD2E641C6288A200C60023 /* SignUpAuthViewController.swift */,
 				EAE60D211C627184000FCBCD /* SignInAuthViewController.swift */,
 				EAE057311C61AC96001B2377 /* CreateAccountRootViewController.swift */,
@@ -211,7 +217,7 @@
 				TargetAttributes = {
 					EACAD9001C6175DF0087E5E1 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = G7HH3F8CAK;
+						DevelopmentTeam = 568JQG4TRT;
 					};
 					EACAD9141C6175DF0087E5E1 = {
 						CreatedOnToolsVersion = 7.2;
@@ -278,8 +284,10 @@
 				EAFD2E651C6288A200C60023 /* SignUpAuthViewController.swift in Sources */,
 				EAE60D221C627184000FCBCD /* SignInAuthViewController.swift in Sources */,
 				EAE057321C61AC96001B2377 /* CreateAccountRootViewController.swift in Sources */,
+				EAF11C081C62E46C0024970A /* TosViewController.swift in Sources */,
 				EAE60D1E1C61C9E8000FCBCD /* OnboardingViewController.swift in Sources */,
 				EAE60D201C61CF83000FCBCD /* SignInViewController.swift in Sources */,
+				EA036C451C630D1B00DCC16B /* SignInSignUpViewController.swift in Sources */,
 				EACAD9071C6175DF0087E5E1 /* ViewController.swift in Sources */,
 				EACAD9051C6175DF0087E5E1 /* AppDelegate.swift in Sources */,
 				EAE057301C61A9D9001B2377 /* SettingsViewController.swift in Sources */,

@@ -19,6 +19,9 @@ class SignUpAuthViewController: UIViewController {
     @IBOutlet weak var passwordBarThree: UIView!
     @IBOutlet weak var passwordBarFour: UIView!
     
+    @IBOutlet weak var createButton: UIBarButtonItem!
+    
+    
     
     var passwordCount = 0
     
@@ -33,10 +36,29 @@ class SignUpAuthViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func showActionSheet(sender: AnyObject) {
+        let optionMenu = UIAlertController(title: nil, message: "Before you can complete your registration, you must accept the Dropbox Terms of Service", preferredStyle: .ActionSheet)
+        
+        let passwordOption = UIAlertAction(title: "I Agree", style: .Default, handler: {
+            (alert: UIAlertAction!) -> Void in
+            self.performSegueWithIdentifier("createAccountSegue", sender: sender)
+        })
+        let ssonAction = UIAlertAction(title: "View Terms", style: .Default, handler: {
+            (alert: UIAlertAction!) -> Void in
+            self.performSegueWithIdentifier("viewTermsSegue", sender: sender)
+        })
+        
+        optionMenu.addAction(passwordOption)
+        optionMenu.addAction(ssonAction)
+        
+        self.presentViewController(optionMenu, animated: true, completion: nil)
+    }
+    
     @IBAction func onPasswordChange(sender: AnyObject) {
         fieldsContainerView.frame.size.height = 206 //176 start
         bottomShadowView.frame.origin.y = 286
         passwordStrengthView.hidden = false
+        createButton.enabled = true
         
         passwordCount++
         if(passwordCount > 4) {
